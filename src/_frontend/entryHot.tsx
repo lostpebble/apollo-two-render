@@ -14,11 +14,6 @@ let rootStore = new RootStore();
 
 const reactNode = document.getElementById("root");
 
-/*if (!process.env.DEV_HYDRATE_REACT) {
-  reactNode.innerHTML = "";
-  console.warn("Warning : Not hydrating React for easier development. Turn on to make sure server -> client is hydrating cleanly using DEV_HYDRATE_REACT=true environment variable.");
-}*/
-
 const renderHot = () => {
   ReactDOM.hydrate(
     <AppContainer>
