@@ -1,0 +1,20 @@
+{
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "node_modules",
+    "*.marko.js",
+    "src/_frontend"
+  ],
+  "verbose": true,
+  "watch": [
+    "dist/server",
+    "built",
+    "src",
+    "views"
+  ],
+  "execMap": {
+    "tsnode": "ts-node"
+  },
+  "ext": "js ts tsx json marko"
+}

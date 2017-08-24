@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "outDir": "built",
+    "allowJs": true,
+    "jsx": "react",
+    "target": "esnext",
+    "removeComments": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "sourceRoot": "src",
+    "allowUnreachableCode": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "src",
+    "src/views"
+  ],
+  "exclude": [
+    "**/immutable-nonambient.d.ts",
+    "build",
+    "built"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": true,
+    "useCache": false
+  }
+}

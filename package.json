@@ -1,0 +1,54 @@
+{
+  "name": "apollo-two-render",
+  "version": "1.0.0",
+  "description": "Showing the multiple render bug",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env FRONTEND_ENV=hot TS_NODE_PROJECT=tsconfig.dev.json nodemon --preserve-symlinks -x ts-node --inspect=9230 ./src/server.ts --preserve-symlinks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lostpebble/apollo-two-render.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lostpebble/apollo-two-render/issues"
+  },
+  "homepage": "https://github.com/lostpebble/apollo-two-render#readme",
+  "dependencies": {
+    "@types/node": "^8.0.24",
+    "@types/react": "^16.0.5",
+    "@types/react-dom": "^15.5.4",
+    "apollo-local-query": "^0.3.0",
+    "apollo-server-koa": "^1.1.2",
+    "awesome-typescript-loader": "^3.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-runtime": "^6.26.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "cross-env": "^5.0.5",
+    "isomorphic-fetch": "^2.2.1",
+    "koa": "^2.3.0",
+    "koa-body": "^2.3.0",
+    "koa-compress": "^2.0.0",
+    "koa-logger": "^3.0.1",
+    "koa-mount": "^3.0.0",
+    "koa-router": "^7.2.1",
+    "koa-static": "^4.0.1",
+    "koa-webpack": "^1.0.0",
+    "marko": "^4.4.26",
+    "mobx": "^3.2.2",
+    "mobx-react": "^4.2.2",
+    "nodemon": "^1.11.0",
+    "react": "^16.0.0-beta.5",
+    "react-apollo": "^1.4.14",
+    "react-dom": "^16.0.0-beta.5",
+    "react-hot-loader": "^3.0.0-beta.7",
+    "ts-lint": "^4.5.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.1",
+    "webpack": "^3.5.5",
+    "zlib": "^1.0.5"
+  }
+}

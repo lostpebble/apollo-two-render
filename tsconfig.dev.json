@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "outDir": "built",
+        "allowJs": true,
+        "target": "es2016",
+        "jsx": "react",
+        "removeComments": true,
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "sourceRoot": "src",
+        "allowUnreachableCode": true,
+        "experimentalDecorators": true
+    },
+    "include": [
+        "src",
+        "views"
+    ],
+    "exclude": [
+        "build",
+        "built",
+        "node_modules"
+    ],
+    "awesomeTypescriptLoaderOptions": {
+        "useBabel": true
+    }
+}

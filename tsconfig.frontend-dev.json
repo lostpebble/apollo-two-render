@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "outDir": "built",
+    "allowJs": true,
+    "jsx": "react",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "removeComments": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "sourceRoot": "src",
+    "allowUnreachableCode": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "src/types",
+    "src/_frontend",
+    "views"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": false,
+    "useCache": true
+  }
+}

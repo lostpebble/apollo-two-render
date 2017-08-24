@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>${data.title}</title>
+  <meta charset="utf-8">
+  <meta name="description" content="${data.description}">
+  <meta name="application-name" content="Apollo Two Render">
+</head>
+<body>
+  <div id="root">$!{data.html}</div>
+  <script async src="frontend/app-${data.ver}.js"></script>
+  <script>
+    window.__APOLLO_STATE__ = ${data.state};
+  </script>
+</body>
+</html>
